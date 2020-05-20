@@ -19,19 +19,34 @@ body{
 	margin: 20px auto;
 	}
 
-div{
+p { 
 	width: 75%;
 	border: 2px solid tan;
 	padding: 10px;
 	margin: 0 auto 0 auto;
 	}
-	
-div2{ 
+.flex-container {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 20px tan;
+				{
+					
+.flex-container > div {
+				width: 300px;
+				margin: 2px;
+				background-color: tan;
+				padding: 2px;
+}
+/*
+div{ 
 	}
 .flex-container {
 				display: flex;
+				flex-wrap: nowrap;
+				justify-content: 
+				background-color: #FF8A00;
 }
-.flex-container > div8{
+.flex-container > div{
 						margin: 10px;
 						padding: 10px;
 }
